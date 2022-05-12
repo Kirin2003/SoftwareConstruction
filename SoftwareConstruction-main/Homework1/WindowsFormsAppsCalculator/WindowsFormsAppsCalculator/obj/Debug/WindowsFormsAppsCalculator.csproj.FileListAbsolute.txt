@@ -1,0 +1,11 @@
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\obj\Debug\WindowsFormsAppsCalculator.csproj.AssemblyReference.cache
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\obj\Debug\WindowsFormsAppsCalculator.csproj.SuggestedBindingRedirects.cache
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\obj\Debug\WindowsFormsAppsCalculator.Form1.resources
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\obj\Debug\WindowsFormsAppsCalculator.Properties.Resources.resources
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\obj\Debug\WindowsFormsAppsCalculator.csproj.GenerateResource.cache
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\obj\Debug\WindowsFormsAppsCalculator.csproj.CoreCompileInputs.cache
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\bin\Debug\WindowsFormsAppsCalculator.exe.config
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\bin\Debug\WindowsFormsAppsCalculator.exe
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\bin\Debug\WindowsFormsAppsCalculator.pdb
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\obj\Debug\WindowsFormsAppsCalculator.exe
+D:\VS\repo\WindowsFormsAppsCalculator\WindowsFormsAppsCalculator\obj\Debug\WindowsFormsAppsCalculator.pdb
