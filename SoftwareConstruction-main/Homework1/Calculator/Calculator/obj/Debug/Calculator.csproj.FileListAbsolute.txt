@@ -1,8 +1,0 @@
-D:\VS\repo\Calculator\Calculator\bin\Debug\Calculator.exe.config
-D:\VS\repo\Calculator\Calculator\bin\Debug\Calculator.exe
-D:\VS\repo\Calculator\Calculator\bin\Debug\Calculator.pdb
-D:\VS\repo\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
-D:\VS\repo\Calculator\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
-D:\VS\repo\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
-D:\VS\repo\Calculator\Calculator\obj\Debug\Calculator.exe
-D:\VS\repo\Calculator\Calculator\obj\Debug\Calculator.pdb
