@@ -37,6 +37,41 @@ namespace Assignment12.Controllers
             return query;
         }
 
+        [HttpGet("{client}")]
+        public ActionResult<List<Order>> getOrderByClient(string clientName)
+        {
+            var query = ctx.Orders.Include(o=>o.OrderClient).Include(o=>o.OrderDetails).ThenInclude(o => o.OrderGoods).Where(o => o.OrderClient.Name.Equals(clientName));
+            if (query == null)
+            {
+                return NotFound();
+            }
+            return query.ToList();
+        }
+
+        [HttpGet("{Goods}")]
+        public ActionResult<List<Order>> getOrderByGoodsName(string goodsName)
+        {
+            var query = ctx.Orders.Include(o=>o.OrderClient).Include(o=>o.OrderDetails).ThenInclude(o => o.OrderGoods).Where(o => o.OrderDetails.Any(item=>item.OrderGoods.Name==goodsName));
+            if (query == null)
+            {
+                return NotFound();
+            }
+            return query.ToList();
+        }
+
+        [HttpGet("{amount}")]
+        public ActionResult<List<Order>> getOrderByTotalAmount(string amount)
+        {
+            var query = ctx.Orders.Include(o=>o.OrderClient).Include(o=>o.OrderDetails).ThenInclude(o => o.OrderGoods).Where(o => o.OrderDetails.Sum(d=> d.OrderGoods.Price * d.Amount)  > Double.Parse(amount));
+            if (query == null)
+            {
+                return NotFound();
+            }
+            return query.ToList();
+        }
+
+
+
         [HttpGet("pageQuery")]
         public ActionResult<List<Order>> queryOrders(string clientName, string address, double? money, int skip, int take)
         {
